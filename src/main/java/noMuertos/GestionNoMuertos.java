@@ -1,3 +1,5 @@
+package noMuertos;
+
 import java.util.ArrayList;
 
 public class GestionNoMuertos {

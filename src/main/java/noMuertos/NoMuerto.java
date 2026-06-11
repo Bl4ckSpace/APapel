@@ -1,3 +1,5 @@
+package noMuertos;
+
 public class NoMuerto {
     // Esta clase no se copia y pega, solo es para que no me salgan errores en la otra
     private String idNoMuerto;
@@ -24,7 +26,7 @@ public class NoMuerto {
 
     @Override
     public String toString() {
-        return "NoMuerto{" +
+        return "noMuertos.NoMuerto{" +
         "idNoMuerto='" + idNoMuerto + '\'' +
         ", color=" + color +
         ", numRatones=" + numRatones +

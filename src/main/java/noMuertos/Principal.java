@@ -1,4 +1,5 @@
-import java.awt.event.ActionEvent;
+package noMuertos;
+
 import java.util.ArrayList;
 
 public class Principal {
