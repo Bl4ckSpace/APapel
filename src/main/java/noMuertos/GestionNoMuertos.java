@@ -7,7 +7,7 @@ public class GestionNoMuertos {
         ArrayList<NoMuerto> noMuertosOrdenados = new ArrayList<>();
 
         while (!noMuertos.isEmpty()) {
-            NoMuerto noMuertoNRatonesMayor = noMuertos.get(0);
+            NoMuerto noMuertoNRatonesMayor = noMuertos.getFirst();
             for (NoMuerto noMuerto : noMuertos) {
                 if (noMuerto.getNumRatones() > noMuertoNRatonesMayor.getNumRatones()) {
                     noMuertoNRatonesMayor = noMuerto;
